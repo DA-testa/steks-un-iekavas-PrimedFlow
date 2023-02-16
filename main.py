@@ -29,9 +29,15 @@ def find_mismatch(text):
 
 def main():
     text = input()
-    mismatch = find_mismatch(text)
+    if "I"in text:
+        mismatch = find_mismatch(text)
+        print(mismatch)
+    elif "F"in text:
+        pass
+    else:
+        pass
     # Printing answer, write your code here
-    print(mismatch)
+    
 
 
 if __name__ == "__main__":
