@@ -36,7 +36,9 @@ def main():
     elif "F"in text:
         pass
     else:
-        pass
+        mismatch=find_mismatch(text)
+        print(mismatch)
+        
     # Printing answer, write your code here
     
 
